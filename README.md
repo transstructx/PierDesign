@@ -7,6 +7,7 @@ PierDesign is a free engineering software tool developed for the analysis and de
 The software implements a displacement-based approach to evaluate the interaction between a rigid pier and the surrounding soil, building upon the BH (Brinch Hansen) method recommended by AS/NZS 7000 and the theoretical recommendations in IEEE 691.
 
 <img width="1709" height="1117" alt="image" src="https://github.com/user-attachments/assets/44d04b9f-108f-4323-95c4-221f4cf24f22" />
+*Figure 1. Main interface of PierDesign.*
 
 ## Key Features
 
@@ -34,7 +35,7 @@ Save project input parameters and calculation results to a file for record keepi
 
 ## Engineering Approach
 
-Conventional application of the BH method primarily focuses on determining the ultimate lateral soil resistance. However, the ultimate resistance does not necessarily represent the actual soil reaction developed under the applied loading conditions.
+Conventional application of the BH method primarily focuses on determining the ultimate lateral soil resistance. However, the ultimate resistance does not necessarily represent the actual soil reaction developed under the applied loading conditions (see soil pressures in Figure 2).
 
 Assuming that the ultimate soil resistance is fully mobilised may result in an overestimation of the soil reaction, potentially leading to conservative estimates of pier shear forces and bending moments and uneconomical reinforcement design.
 
@@ -46,6 +47,9 @@ PierDesign adopts a displacement-based approach to address this limitation:
 4. Calculate the resulting shear force and bending moment distributions along the pier.
 
 The theoretical framework is based on the recommendations in IEEE 691, with the aim of providing a more realistic assessment of soil–pier interaction under lateral loading.
+
+<img width="1709" height="1117" alt="image" src="https://github.com/user-attachments/assets/3ba0643e-35f9-4381-a83e-28e279c8c33b" />
+*Figure 2. Results tab of PierDesign.*
 
 ---
 
