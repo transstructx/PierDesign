@@ -88,10 +88,7 @@ The published Windows package is intended to be self-contained, so a separate .N
 
 PierDesign is intended for engineering applications involving rigid pier foundations subjected to lateral loading, particularly:
 
-- Overhead transmission line foundations.
-- Rigid pier foundation analysis.
-- Assessment of soil–foundation interaction.
-- Evaluation of lateral displacement and internal forces.
+- Rigid piers as overhead transmission pole foundations.
 
 ---
 
