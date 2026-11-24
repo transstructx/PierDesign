@@ -4,7 +4,7 @@
 
 PierDesign is a free engineering software tool developed for the analysis and design of rigid pier foundations subjected to lateral loading. It is intended for structural, geotechnical, and transmission line engineers involved in foundation design.
 
-The software implements a displacement-based approach to evaluate the interaction between a rigid pier and the surrounding soil, building upon the Brinch Hansen method and the theoretical recommendations in IEEE 691.
+The software implements a displacement-based approach to evaluate the interaction between a rigid pier and the surrounding soil, building upon the BH (Brinch Hansen) method recommended by AS/NZS 7000 and the theoretical recommendations in IEEE 691.
 
 <img width="1709" height="1117" alt="image" src="https://github.com/user-attachments/assets/44d04b9f-108f-4323-95c4-221f4cf24f22" />
 
@@ -16,7 +16,7 @@ Calculates the lateral displacements at the top and bottom of the pier under app
 
 ### 2. Ultimate Soil Resistance – Brinch Hansen Method
 
-Applies the Brinch Hansen method referenced in AS/NZS 7000 to determine the ultimate lateral soil resistance. This resistance represents the limiting soil capacity rather than the actual soil reaction mobilised under a given loading condition.
+Applies the BH method referenced in AS/NZS 7000 to determine the ultimate lateral soil resistance. This resistance represents the limiting soil capacity rather than the actual soil reaction mobilised under a given loading condition.
 
 ### 3. Mobilised Soil Resistance
 
