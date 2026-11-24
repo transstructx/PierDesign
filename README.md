@@ -59,8 +59,6 @@ The theoretical framework is based on the recommendations in IEEE 691, with the 
   <em>Figure 2. Result Tab of PierDesign.</em>
 </p>
 
----
-
 ## Reference Standards
 
 The engineering approach draws upon the following standards:
