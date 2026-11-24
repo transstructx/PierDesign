@@ -74,7 +74,7 @@ Users should refer to the relevant standards and original publications for the a
 
 PierDesign is available as a free Windows application.
 
-**[Download the latest release](https://github.com/transstructx/PierDesign_Develop/releases/latest)**
+**[Download the latest release](https://github.com/transstructx/PierDesign/releases/latest)**
 
 1. Download the latest Windows release ZIP file.
 2. Extract the ZIP file to a local folder.
