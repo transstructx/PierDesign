@@ -14,7 +14,7 @@ The software implements a displacement-based approach to evaluate the interactio
 
 Calculates the lateral displacements at the top and bottom of the pier under applied loading, based on a rigid-body rotation assumption about a point of rotation located below ground level.
 
-### 2. Ultimate Soil Resistance – Brinch Hansen Method
+### 2. Ultimate Soil Resistance – BH Method
 
 Applies the BH method referenced in AS/NZS 7000 to determine the ultimate lateral soil resistance. This resistance represents the limiting soil capacity rather than the actual soil reaction mobilised under a given loading condition.
 
@@ -26,17 +26,21 @@ Evaluates the mobilised soil resistance along the pier based on its displacement
 
 Calculates the shear force and bending moment distributions along the pier based on the mobilised soil resistance, rather than assuming that the ultimate soil resistance is fully mobilised.
 
+### 5. Input and Output File Management
+
+Save project input parameters and calculation results to a file for record keeping, and project archiving. Saved input files can be reopened to retrieve previously defined analysis parameters.
+
 ---
 
 ## Engineering Approach
 
-Conventional application of the Brinch Hansen method primarily focuses on determining the ultimate lateral soil resistance. However, the ultimate resistance does not necessarily represent the actual soil reaction developed under the applied loading conditions.
+Conventional application of the BH method primarily focuses on determining the ultimate lateral soil resistance. However, the ultimate resistance does not necessarily represent the actual soil reaction developed under the applied loading conditions.
 
 Assuming that the ultimate soil resistance is fully mobilised may result in an overestimation of the soil reaction, potentially leading to conservative estimates of pier shear forces and bending moments and uneconomical reinforcement design.
 
 PierDesign adopts a displacement-based approach to address this limitation:
 
-1. Determine the ultimate lateral soil resistance using the Brinch Hansen method.
+1. Determine the ultimate lateral soil resistance using the BH method.
 2. Establish the pier displacement profile based on the rigid-body rotation assumption.
 3. Evaluate the mobilised soil resistance based on the displacement-dependent soil response.
 4. Calculate the resulting shear force and bending moment distributions along the pier.
@@ -45,11 +49,11 @@ The theoretical framework is based on the recommendations in IEEE 691, with the 
 
 ---
 
-## Methodology and References
+## Reference Standards
 
-The engineering approach draws upon the following standards and references:
+The engineering approach draws upon the following standards:
 
-- **AS/NZS 7000** – Overhead line design, including the Brinch Hansen method for ultimate lateral soil resistance.
+- **AS/NZS 7000** – Overhead line design, including the BH method for ultimate lateral soil resistance.
 - **IEEE 691** – Guide for Transmission Structure Foundation Design and Testing.
 
 Users should refer to the relevant standards and original publications for the applicable design provisions and assumptions.
